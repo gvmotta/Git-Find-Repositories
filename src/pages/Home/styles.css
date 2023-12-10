@@ -1,0 +1,27 @@
+.conteudo {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 100%;
+}
+.input-container {
+    display: flex;
+}
+.background{
+    height: 90dvh;
+    position: absolute;
+    left: 0;
+}
+.info {
+    margin-right: 10%;
+    margin-top: 4%;
+    width: 65%;
+    color: #FFFFFF;
+}
+.repositorios h4 {
+    color: #FFFFFF;
+    font-size: 24px;
+    margin: 10px 0;
+    text-align: center;
+}
