@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa2a6843.css",
-    "main.js": "/static/js/main.d1a36917.js",
-    "index.html": "/index.html",
-    "main.fa2a6843.css.map": "/static/css/main.fa2a6843.css.map",
-    "main.d1a36917.js.map": "/static/js/main.d1a36917.js.map"
+    "main.css": "/Git-Find-Repositories/static/css/main.fa2a6843.css",
+    "main.js": "/Git-Find-Repositories/static/js/main.d1a36917.js",
+    "index.html": "/Git-Find-Repositories/index.html",
+    "main.fa2a6843.css.map": "/Git-Find-Repositories/static/css/main.fa2a6843.css.map",
+    "main.d1a36917.js.map": "/Git-Find-Repositories/static/js/main.d1a36917.js.map"
   },
   "entrypoints": [
     "static/css/main.fa2a6843.css",
