@@ -2,7 +2,8 @@ import './styles.css';
 const Header = () => {
   return (
     <header>
-        <h1>GitFind</h1>
+      <i className="fa-brands fa-github"></i>
+      <h1>GitFind</h1>
     </header>
   )
 }

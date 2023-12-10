@@ -12,6 +12,7 @@
     height: 90dvh;
     position: absolute;
     left: 0;
+    pointer-events: none;
 }
 .info {
     margin-right: 10%;
@@ -22,6 +23,26 @@
 .repositorios h4 {
     color: #FFFFFF;
     font-size: 24px;
-    margin: 10px 0;
+    margin: 10px 0 20px;
     text-align: center;
+}
+@media (max-width: 750px) {
+    .conteudo {
+        justify-content: center;
+    }
+    .info {
+        margin: 1rem 0 0 0;
+    }
+}
+@media (max-width: 471px) {
+    .input-container {
+        display: block;
+        width: 100%;
+    }
+    .input-container button, input {
+        width: 100%;
+    }
+    .input-container button {
+        margin-top: .5rem;
+    }
 }

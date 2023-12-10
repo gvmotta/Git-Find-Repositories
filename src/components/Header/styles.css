@@ -1,6 +1,6 @@
 header {
     height: 10dvh;
-    width: 100%;
+    width: 100dvw;
     background-color: #2D333B;
     display: flex;
     align-items: center;
@@ -10,4 +10,9 @@ h1 {
     font-family: 'Inter', 'Roboto', Arial;
     font-size: 30px;
     color: #FFFFFF;
+}
+i {
+    color: #fff;
+    font-size: 30px;
+    margin-right: .5rem;
 }

@@ -1,11 +1,8 @@
 .itemsList a {
-    color: #539BF5;
+    color: #819dbe;
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
-}
-.itemsList a:hover {
-    opacity: 80%;
 }
 .itemsList p {
     color: #999999;

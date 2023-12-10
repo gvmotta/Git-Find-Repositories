@@ -1,8 +1,9 @@
 .perfil {
     display: flex;
+    flex-direction: row;
     margin: 40px 0;
 }
-.profile {
+.profile-img {
     width: 120px;
     height: 120px;
     border-radius: 60px;
@@ -18,10 +19,20 @@
     display: block;
     color: #999999;
     font-size: 12px;
-    margin: 3px 0 0 0;
+    margin: 5px 0 0 0;
 }
 .perfil p {
     color: #999999;
     font-size: 12px;
     margin: 15px 0 0 0;
+}
+@media (max-width: 450px) {
+    .perfil {
+        display: block;
+    }
+    .profile {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
 }

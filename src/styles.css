@@ -6,8 +6,17 @@
 }
 body {
     background-color: #1D2128;
+    height: 100dvh;
+    width: 100dvw;
+    overflow-x: hidden;
 }
 hr {
     border: 1px solid rgba(229, 229, 229, 0,2);
     background-color: rgba(229, 229, 229, 0,2);
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    opacity: 80%;
 }
