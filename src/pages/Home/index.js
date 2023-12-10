@@ -23,21 +23,13 @@ function App() {
 
   const handleGetData = async () => {
     try { 
-      let userData = await fetch(`https://api.github.com/users/${user}`, {
-        headers: {
-          Authorization: `token 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`
-        }
-      });
+      let userData = await fetch(`https://api.github.com/users/${user}`);
       const newUser = await userData.json();
       console.log(newUser);
       if(newUser.name){
         const {avatar_url, name, bio, login, html_url} = newUser;
         setCurrentUser({avatar_url, name, bio, login, html_url})
-        const reposData = await fetch(`https://api.github.com/users/${user}/repos`, {
-          headers: {
-            Authorization: `token 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`
-          }
-        });
+        const reposData = await fetch(`https://api.github.com/users/${user}/repos`);
         const newRepos = await reposData.json();
         console.log(newRepos);
         if(newRepos.length){
