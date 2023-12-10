@@ -35,7 +35,7 @@ function App() {
         setCurrentUser({avatar_url, name, bio, login, html_url})
         const reposData = await fetch(`https://api.github.com/users/${user}/repos`, {
           headers: {
-            Authorization: `token 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`
+            Authorization: `token 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`
           }
         });
         const newRepos = await reposData.json();
